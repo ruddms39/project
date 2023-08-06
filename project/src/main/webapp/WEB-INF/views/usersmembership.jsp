@@ -70,7 +70,7 @@
 				$("#upw").focus();
 				return;
 			}
-			if((upw.length < 10) || (upw.length >20)){
+			if((upw.length > 10) || (upw.length < 20)){
 				alert("비밀번호는 10~20자 이내로 입력해주세요.");
 				$("#upw").focus();
 				return;
